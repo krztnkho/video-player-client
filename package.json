@@ -1,0 +1,20 @@
+{
+  "name": "video-player-client",
+  "version": "0.0.0",
+  "description": "Video player client",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eskrima/video-player-client.git"
+  },
+  "author": "Team Eskrima",
+  "bugs": {
+    "url": "https://github.com/Eskrima/video-player-client/issues"
+  },
+  "homepage": "https://github.com/Eskrima/video-player-client",
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  }
+}
