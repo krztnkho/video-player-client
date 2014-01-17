@@ -1,0 +1,21 @@
+{
+  "name": "video-player-client",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Eskrima/video-player-client",
+  "authors": [
+    "Team Eskrima"
+  ],
+  "description": "Video player client source",
+  "main": "src/init.js",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "requirejs": "~2.1.10"
+  }
+}

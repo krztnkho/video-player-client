@@ -1,20 +1,33 @@
 {
-	"evil" : true,
-	"validthis": true,
-	"browser"  : true,
-	"debug"    : true,
-	"boss"     : true,
-	"expr"     : true,
-	"eqnull"   : true,
-	"quotmark" : "single",
-	"sub"      : true,
-	"trailing" : true,
-	"undef"    : true,
-	"laxbreak" : true,
-	"predef"   : [
-		"require",        
-		"expect",
-		"module",
-		"test"
-	]
+    "bitwise"   : true,
+    "curly"     : true,
+    "eqeqeq"    : true,
+    "forin"     : false,
+    "latedef"   : true,
+    "newcap"    : true,
+    "noarg"     : true,
+    "noempty"   : true,
+    "undef"     : true,
+    "strict"    : true,
+    "trailing"  : true,
+    "evil"      : false,
+    "quotmark"  : "single",
+    "node"      : true,
+    "browser"   : true,
+    "sub"       : true,
+    "smarttabs" : true,
+
+    "globals": {
+        "module"         : true,
+        "require"        : true,
+        "define"         : true,
+        "before"         : true,
+        "beforeEach"     : true,
+        "describe"       : true,
+        "it"             : true,
+        "after"          : true,
+        "afterEach"      : true,
+        "mocha"          : true,
+        "mochaPhantomJS" : true
+    }
 }
