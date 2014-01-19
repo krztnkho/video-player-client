@@ -1,5 +1,5 @@
 define( function( require ) {
 	'use strict';
 
-	var CoreObject = require( 'object' );
+	var CoreObject = require( 'core-object' );
 } );

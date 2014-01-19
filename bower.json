@@ -16,6 +16,8 @@
     "tests"
   ],
   "devDependencies": {
-    "requirejs": "~2.1.10"
+    "requirejs": "~2.1.10",
+    "mocha": "~1.17.0",
+    "chai": "~1.8.1"
   }
 }

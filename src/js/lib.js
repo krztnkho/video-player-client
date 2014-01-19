@@ -4,13 +4,13 @@ define( function() {
 	var Lib = {};
 
 	/**
-	 * Creates a new object from obj. See Javascript: The Good Parts
+	 * Creates a new object from obj. See Douglas Crockford's Javascript: The Good Parts
 	 * @param  {Object} obj Object spec to use as protoype
 	 * @return {Function} An object based on obj
 	 */
 	Lib.create = function( obj ) {
-		// Create a variable F which is a Function, can also be written as:
-		// function F() {};
+		// Create a variable F which is a Function, books code looks like this:
+		// function F() {}
 		// The reason this not an Object() because `new` only works on Function()'s
 		var F = new Function();
 

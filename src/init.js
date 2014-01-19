@@ -1,11 +1,11 @@
 require.config( {
-	baseUrl: '../src/js/',
+	baseUrl: 'js/',
 
 	deps: [ 'core' ],
 
 	paths: {
-		'core'   : 'core',
-		'lib'    : 'lib',
-		'object' : 'core-object'
+		'core'        : 'core',
+		'lib'         : 'lib',
+		'core-object' : 'core-object'
 	}
 } );
